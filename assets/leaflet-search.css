@@ -1,0 +1,15 @@
+.leaflet-center {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.leaflet-control-geocoder .leaflet-control-geocoder-alternatives {
+    margin: 0;
+    padding: 0;
+}
+
+.leaflet-control-geocoder-alternatives a {
+    padding-bottom: 6px;
+}

@@ -17,5 +17,8 @@ wrapper:
   version: VERSION
   js:
     assets/script.js: {}
+  css:
+    component:
+      assets/leaflet-search.css: {}
   dependencies:
     - leaflet_search/geocoder-control
