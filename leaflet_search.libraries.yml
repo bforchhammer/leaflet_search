@@ -1,0 +1,21 @@
+geocoder-control:
+  remote: https://github.com/perliedman/leaflet-control-geocoder
+  version: release-v1.0.0
+  license:
+    name: Unknown
+    url: https://github.com/perliedman/leaflet-control-geocoder/blob/release-v1.0.0/LICENSE
+    gpl-compatible: true
+  js:
+    /libraries/leaflet-control-geocoder/Control.Geocoder.js: {}
+  css:
+    component:
+      /libraries/leaflet-control-geocoder/Control.Geocoder.css: {}
+  dependencies:
+    - leaflet/leaflet
+
+wrapper:
+  version: VERSION
+  js:
+    assets/script.js: {}
+  dependencies:
+    - leaflet_search/geocoder-control

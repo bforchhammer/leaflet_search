@@ -1,0 +1,6 @@
+{
+  "name": "leaflet-search",
+  "dependencies": {
+    "leaflet-control-geocoder": "https://github.com/perliedman/leaflet-control-geocoder.git#release-v1.0.0"
+  }
+}

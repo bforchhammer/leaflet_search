@@ -1,0 +1,7 @@
+name: Leaflet Search Plugin
+type: module
+description: Provides live search on maps via the "leaflet control geocoder" plugin.
+core: 8.x
+package: Leaflet
+dependencies:
+  - leaflet
