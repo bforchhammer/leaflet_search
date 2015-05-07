@@ -25,7 +25,7 @@
         return markGeocode_callback.apply(this, arguments);
     };
 
-    $(document).on('leaflet.map', function (e, settings, lMap) {
+    $(document).on('drupal_leaflet.map.plugin.search', function (e, settings, lMap) {
         if (settings.plugins.search) {
             var geocoder_settings = settings.plugins.search;
 
