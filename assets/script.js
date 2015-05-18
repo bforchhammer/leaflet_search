@@ -1,15 +1,5 @@
 (function ($) {
 
-    // Fix bug where ESC key collapses search field, even if it is not collapsible.
-    var _keydown_callback = L.Control.Geocoder.prototype._keydown;
-    L.Control.Geocoder.prototype._keydown = function (e) {
-        if (e.keyCode == 27 && !this.options.collapsed) {
-            // Ignore ESC keypress if the widget is not collapsible.
-            return;
-        }
-        return _keydown_callback.apply(this, arguments);
-    };
-
     // Add option to not have a marker placed for the selected result.
     var markGeocode_callback = L.Control.Geocoder.prototype.markGeocode;
     L.Control.Geocoder.prototype.markGeocode = function (result) {
